@@ -4,7 +4,7 @@
                      So we will host a websocket server on the esp that will send the serial data to the connected clients if subscribed. Then it will be printed
                      on the browser console.
    Author : Manohar Singh Rajawat
-   Date : 5-September-2020
+   Date : 15-September-2020
 */
 
 #include <ESP8266WiFi.h> // This library is used for Wifi Setup.
