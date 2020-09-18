@@ -290,7 +290,7 @@ typedef struct {
     uint32_t pongTimeout;              // interval in millis after which pong is considered to timeout
     uint8_t disconnectTimeoutCount;    // after how many subsequent pong timeouts discconnect will happen, 0 means "do not disconnect"
     uint8_t pongTimeoutCount;          // current pong timeout count
-	bool isSubscribedSerial;		   // This flag will be used to send the serial data over wifi to subscribed clients.
+    bool isSubscribedSerial;	       // This flag will be used to send the serial data over wifi to subscribed clients.
 
 #if(WEBSOCKETS_NETWORK_TYPE == NETWORK_ESP8266_ASYNC)
     String cHttpLine;    ///< HTTP header lines
